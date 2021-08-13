@@ -3,4 +3,70 @@ html {
   box-sizing: border-box;
   font-family: 'Red Hat Display', sans-serif; }
 
+body {
+  background-color: #E0E8FF;
+  background-image: url(../../../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+main {
+  width: 90%;
+  height: 53em;
+  border-radius: 2.5em;
+  margin: 3em auto 0 auto;
+  overflow: hidden;
+  background-color: #F4F7FF; }
+
+.hero {
+  width: 100%; }
+  .hero img {
+    width: 100%; }
+
+.main-summary {
+  text-align: center;
+  line-height: 2.5em; }
+  .main-summary__text {
+    font-size: 1.6em;
+    color: #65666a; }
+
+.main-prices {
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-evenly;
+  align-items: center; }
+  .main-prices__img {
+    margin-left: 1em; }
+  .main-prices h2, .main-prices p {
+    font-size: 1.6em;
+    margin: 0.3em 0 0.3em 0; }
+  .main-prices p {
+    color: #65666a; }
+  .main-prices a {
+    font-size: 1.6em;
+    font-weight: 500;
+    color: #3828E0; }
+
+.pay {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 3em;
+  display: inline-block;
+  text-align: center; }
+  .pay .button {
+    width: 85%;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    margin: 0.2em 0;
+    font-size: 1.6em;
+    font-weight: 700; }
+  .pay .one {
+    background-color: #3828E0;
+    color: white; }
+  .pay .one:hover, .pay .two:hover {
+    box-shadow: 0px 4px 5px 0px #888; }
+  .pay .two {
+    color: #65666a; }
+
 /*# sourceMappingURL=styles.css.map */
