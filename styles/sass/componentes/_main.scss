@@ -8,9 +8,10 @@ body{
 
 main {
     width: 90%;
-    height: 53em;
+    max-width: 55em;
+    height: auto;
     border-radius: 2.5em;
-    margin: 3em auto 0 auto;
+    margin: 8em auto 0 auto;
     overflow: hidden;
     background-color: $thirdColor;
 }
@@ -18,6 +19,7 @@ main {
     width: 100%;
     img{
         width: 100%;
+        height: 17em;
     }
 
 }
@@ -76,5 +78,46 @@ main {
     }
     .two{
         color: $fontColor;
+        margin-bottom: 1.5em;
+    }
+}
+
+@media (min-width:400px){
+    .hero {
+        width: 100%;
+        img{
+            height: 22em;
+        }
+    
+    }
+    .main-summary {
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+
+        &__text{
+            max-width: 19em;
+        }
+    }
+}
+@media (min-width:600px){
+    body{
+        background-image: url('../../../images/pattern-background-desktop.svg');
+        font-size: 1em
+    }
+    .hero {
+        width: 100%;
+        img{
+            height: 27em;
+        }
+    }
+    .main-summary {
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+
+        &__text{
+            max-width: 23em;
+        }
     }
 }
