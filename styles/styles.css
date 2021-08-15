@@ -4,18 +4,48 @@ html {
   font-family: 'Red Hat Display', sans-serif; }
 
 body {
-  background-color: #E0E8FF;
-  background-image: url(../../../images/pattern-background-mobile.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background: linear-gradient(226deg, #564bc8, #232327);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 13s ease infinite;
+  -moz-animation: AnimationName 13s ease infinite;
+  animation: AnimationName 13s ease infinite; }
 
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 46% 0%; }
+  50% {
+    background-position: 55% 100%; }
+  100% {
+    background-position: 46% 0%; } }
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 46% 0%; }
+  50% {
+    background-position: 55% 100%; }
+  100% {
+    background-position: 46% 0%; } }
+@keyframes AnimationName {
+  0% {
+    background-position: 46% 0%; }
+  50% {
+    background-position: 55% 100%; }
+  100% {
+    background-position: 46% 0%; } }
 main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container {
   width: 90%;
   max-width: 55em;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-radius: 2.5em;
-  margin: 8em auto 0 auto;
   overflow: hidden;
   background-color: #F4F7FF; }
 
@@ -26,24 +56,30 @@ main {
     height: 17em; }
 
 .main-summary {
+  margin-top: 2.7em;
   text-align: center;
-  line-height: 2.5em; }
+  line-height: 2.5em;
+  max-width: 80%; }
   .main-summary__text {
     font-size: 1.6em;
     color: #65666a; }
 
 .main-prices {
+  width: 80%;
   display: flex;
+  margin: 1em 0em;
   margin-top: 2em;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center; }
-  .main-prices__img {
-    margin-left: 1em; }
-  .main-prices h2, .main-prices p {
-    font-size: 1.6em;
-    margin: 0.3em 0 0.3em 0; }
-  .main-prices p {
-    color: #65666a; }
+  .main-prices .main-music {
+    display: flex; }
+    .main-prices .main-music .main-prices__img {
+      margin: 0em 2.1em 0em 1em; }
+    .main-prices .main-music h2, .main-prices .main-music p {
+      font-size: 1.6em;
+      margin: 0.3em 0 0.3em 0; }
+    .main-prices .main-music p {
+      color: #65666a; }
   .main-prices a {
     font-size: 1.6em;
     font-weight: 500;
@@ -67,7 +103,7 @@ main {
     background-color: #3828E0;
     color: white; }
   .pay .one:hover, .pay .two:hover {
-    box-shadow: 0px 4px 5px 0px #888; }
+    box-shadow: -1px 3px 5px -1px rgba(0, 0, 0, 0.7); }
   .pay .two {
     color: #65666a;
     margin-bottom: 1.5em; }
@@ -76,7 +112,8 @@ main {
   .hero {
     width: 100%; }
     .hero img {
-      height: 22em; }
+      width: 100%;
+      height: 20em; }
 
   .main-summary {
     display: flex;
@@ -84,21 +121,35 @@ main {
     align-items: center; }
     .main-summary__text {
       max-width: 19em; } }
+@media (min-width: 450px) {
+  .container {
+    max-width: 40.5em; } }
+@media (min-width: 500px) {
+  .hero img {
+    width: 100%;
+    height: 20em; } }
 @media (min-width: 600px) {
-  body {
-    background-image: url("../../../images/pattern-background-desktop.svg");
-    font-size: 1em; }
+  .container {
+    max-width: 45em; }
+    .container .hero {
+      width: 100%; }
+      .container .hero img {
+        height: 22em; }
+    .container .main-summary {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .container .main-summary h1 {
+        font-size: 2.7em; }
+      .container .main-summary__text {
+        max-width: 23em; }
 
-  .hero {
-    width: 100%; }
-    .hero img {
-      height: 27em; }
+  .main-prices {
+    margin: 3em 0em; }
 
-  .main-summary {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .main-summary__text {
-      max-width: 23em; } }
+  .pay {
+    margin-bottom: 3em; }
+    .pay .button {
+      margin: 0.5em 0em; } }
 
 /*# sourceMappingURL=styles.css.map */
