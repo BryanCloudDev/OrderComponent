@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/music-app-with-sass-and-html-HejriV--1)
 - Live Site URL: (https://bryan-cloud.github.io/MusicSubscription/)
 
 ## My process
@@ -52,6 +52,5 @@ I will try to continue improving how I apply the mobile first desing in order to
 
 ## Author
 
-- Website - [Bryan portillo](https://www.your-site.com)
 - Frontend Mentor - [@bryan-cloud](https://www.frontendmentor.io/profile/bryan-cloud)
 - Twitter - [@Bryan Portillo](https://twitter.com/bportillo701)
