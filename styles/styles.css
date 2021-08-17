@@ -83,7 +83,10 @@ main {
   .main-prices a {
     font-size: 1.6em;
     font-weight: 500;
-    color: #3828E0; }
+    color: #3828E0;
+    text-decoration: none; }
+  .main-prices a:hover {
+    text-decoration: underline; }
 
 .pay {
   width: 100%;
@@ -106,6 +109,7 @@ main {
     box-shadow: -1px 3px 5px -1px rgba(0, 0, 0, 0.7); }
   .pay .two {
     color: #65666a;
+    background-color: unset;
     margin-bottom: 1.5em; }
 
 @media (min-width: 400px) {

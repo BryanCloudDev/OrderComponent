@@ -6,9 +6,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -25,11 +23,11 @@ Users should be able to:
 
 #### Mobile design
 
-<img src="https://i.imgur.com/8o3tYLb.png" width="400px" ></a>
+<img src="https://i.imgur.com/6qkdPM8.png" width="400px" ></a>
 
 #### Desktop design
 
-<img src="https://i.imgur.com/YnpwGkf.png" width="400px" ></a>
+<img src="https://i.imgur.com/gtutqU5.png" width="400px" ></a>
 
 
 
@@ -50,7 +48,7 @@ Users should be able to:
 
 ### Continued development
 
-I will try to continue improving how I apply the mobile first desing in order to get practices when developing responsive websites
+I will try to continue improving how I apply the mobile first desing in order to get practices when developing responsive websites.
 
 ## Author
 
