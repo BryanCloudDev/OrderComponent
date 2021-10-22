@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://www.frontendmentor.io/solutions/music-app-with-sass-and-html-HejriV--1)
-- Live Site URL: (https://bryan-cloud.github.io/MusicSubscription/)
+- Live Site URL: (https://bryanclouddev.github.io/OrderComponent/)
 
 ## My process
 
